@@ -9,4 +9,5 @@ export const fetchFoods =(restaurantId) => {
   })
   .catch((e) => console.error(e))
 }
+
 // --- ここまで追加 ---
