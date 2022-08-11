@@ -913,3 +913,2226 @@ Processing by Api::V1::RestaurantsController#index as HTML
 Completed 200 OK in 503ms (Views: 2.1ms | ActiveRecord: 0.4ms | Allocations: 1041)
 
 
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-10 23:59:55 +0900
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 535ms (Views: 9.9ms | ActiveRecord: 1.3ms | Allocations: 9726)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-10 23:59:56 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 507ms (Views: 1.6ms | ActiveRecord: 0.2ms | Allocations: 1132)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-11 00:00:04 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 510ms (Views: 5.6ms | ActiveRecord: 0.4ms | Allocations: 1060)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-11 00:00:05 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 509ms (Views: 3.6ms | ActiveRecord: 0.5ms | Allocations: 1045)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-11 00:00:07 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 509ms (Views: 3.2ms | ActiveRecord: 0.3ms | Allocations: 1053)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-11 00:00:07 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 508ms (Views: 2.7ms | ActiveRecord: 0.2ms | Allocations: 1042)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-11 00:00:11 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 505ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 1057)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-11 00:00:11 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 510ms (Views: 3.4ms | ActiveRecord: 0.3ms | Allocations: 1041)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-11 00:00:20 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 510ms (Views: 4.2ms | ActiveRecord: 0.4ms | Allocations: 1054)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-11 00:00:20 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 511ms (Views: 4.7ms | ActiveRecord: 0.4ms | Allocations: 1045)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-11 00:00:25 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 508ms (Views: 3.1ms | ActiveRecord: 0.3ms | Allocations: 1045)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-11 00:00:25 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 510ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 1041)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-11 00:00:38 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (1.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 511ms (Views: 4.6ms | ActiveRecord: 1.2ms | Allocations: 1042)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-11 00:00:38 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 506ms (Views: 2.4ms | ActiveRecord: 0.2ms | Allocations: 1041)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 11:13:31 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 558ms (Views: 9.9ms | ActiveRecord: 4.8ms | Allocations: 11049)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 11:13:31 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 509ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 2934)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 11:13:39 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 516ms (Views: 6.6ms | ActiveRecord: 0.9ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 11:13:39 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 541ms (Views: 20.5ms | ActiveRecord: 0.5ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 11:15:17 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 514ms (Views: 5.4ms | ActiveRecord: 0.5ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 11:15:18 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 506ms (Views: 3.1ms | ActiveRecord: 0.3ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 11:16:46 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 510ms (Views: 2.9ms | ActiveRecord: 0.3ms | Allocations: 2791)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 11:16:47 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 510ms (Views: 2.8ms | ActiveRecord: 0.3ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 11:16:49 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 517ms (Views: 7.2ms | ActiveRecord: 1.1ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 11:16:50 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 513ms (Views: 5.3ms | ActiveRecord: 0.7ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 11:16:59 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 516ms (Views: 6.6ms | ActiveRecord: 0.7ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 11:17:00 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 506ms (Views: 3.1ms | ActiveRecord: 0.3ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:20:06 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 511ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:20:07 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 507ms (Views: 1.2ms | ActiveRecord: 0.1ms | Allocations: 2805)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:20:13 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 515ms (Views: 6.0ms | ActiveRecord: 0.7ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:20:13 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 515ms (Views: 6.5ms | ActiveRecord: 0.8ms | Allocations: 2801)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:20:14 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 517ms (Views: 6.5ms | ActiveRecord: 1.2ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:20:15 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 515ms (Views: 4.9ms | ActiveRecord: 0.5ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:20:42 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 516ms (Views: 6.6ms | ActiveRecord: 0.8ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:20:43 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 510ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:30:33 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 516ms (Views: 2.9ms | ActiveRecord: 2.2ms | Allocations: 3389)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:30:34 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 509ms (Views: 2.5ms | ActiveRecord: 0.3ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:30:45 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 514ms (Views: 5.4ms | ActiveRecord: 0.8ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:30:45 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 514ms (Views: 5.1ms | ActiveRecord: 0.5ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:30:51 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 515ms (Views: 2.9ms | ActiveRecord: 0.4ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:30:52 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 511ms (Views: 3.6ms | ActiveRecord: 0.4ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:30:53 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 514ms (Views: 5.7ms | ActiveRecord: 0.7ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:30:53 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 517ms (Views: 6.9ms | ActiveRecord: 0.9ms | Allocations: 2805)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:31:02 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 506ms (Views: 3.4ms | ActiveRecord: 0.4ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:31:02 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 511ms (Views: 3.6ms | ActiveRecord: 0.3ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:32:59 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 528ms (Views: 9.7ms | ActiveRecord: 1.1ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:33:00 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 509ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:33:21 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 518ms (Views: 8.4ms | ActiveRecord: 0.9ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:33:22 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 510ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:34:05 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 507ms (Views: 3.2ms | ActiveRecord: 0.3ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:34:06 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 508ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:34:09 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 522ms (Views: 5.9ms | ActiveRecord: 0.7ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:34:10 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 512ms (Views: 4.6ms | ActiveRecord: 0.5ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:34:38 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 509ms (Views: 2.4ms | ActiveRecord: 0.7ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:34:38 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 509ms (Views: 2.7ms | ActiveRecord: 0.2ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:35:35 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (2.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 525ms (Views: 7.5ms | ActiveRecord: 2.6ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:35:36 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 509ms (Views: 2.5ms | ActiveRecord: 0.2ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:44:14 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 517ms (Views: 3.4ms | ActiveRecord: 3.1ms | Allocations: 3355)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:44:14 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 509ms (Views: 2.4ms | ActiveRecord: 0.2ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:45:08 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 508ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:45:08 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 506ms (Views: 2.9ms | ActiveRecord: 0.3ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:45:11 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 516ms (Views: 7.3ms | ActiveRecord: 0.8ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:45:12 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 517ms (Views: 7.4ms | ActiveRecord: 0.9ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:49:39 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (1.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 523ms (Views: 7.6ms | ActiveRecord: 1.5ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:49:39 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 505ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:55:05 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 534ms (Views: 23.2ms | ActiveRecord: 0.8ms | Allocations: 2791)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:55:05 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 509ms (Views: 2.5ms | ActiveRecord: 0.3ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:55:13 +0900
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:55:13 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+Completed 200 OK in 516ms (Views: 6.4ms | ActiveRecord: 0.6ms | Allocations: 4331)
+
+
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 523ms (Views: 5.5ms | ActiveRecord: 2.4ms | Allocations: 6534)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:55:35 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 513ms (Views: 4.3ms | ActiveRecord: 0.6ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:55:35 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 511ms (Views: 3.4ms | ActiveRecord: 0.3ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:57:48 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 516ms (Views: 4.9ms | ActiveRecord: 0.5ms | Allocations: 2792)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 11:57:48 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 510ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 12:25:34 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 532ms (Views: 7.3ms | ActiveRecord: 4.2ms | Allocations: 3354)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 12:25:35 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 505ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 12:26:25 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 508ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 12:26:25 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 509ms (Views: 2.8ms | ActiveRecord: 0.3ms | Allocations: 2792)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 12:26:27 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 515ms (Views: 5.7ms | ActiveRecord: 0.7ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 12:26:28 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 517ms (Views: 8.0ms | ActiveRecord: 0.9ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 12:29:04 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 519ms (Views: 6.9ms | ActiveRecord: 0.8ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 12:29:05 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 506ms (Views: 1.3ms | ActiveRecord: 0.4ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 12:29:08 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 507ms (Views: 4.5ms | ActiveRecord: 0.4ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 12:29:09 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 517ms (Views: 8.6ms | ActiveRecord: 0.8ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 12:29:20 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 517ms (Views: 7.1ms | ActiveRecord: 1.0ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 12:29:21 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 510ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 12:39:48 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 526ms (Views: 7.8ms | ActiveRecord: 3.7ms | Allocations: 3357)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 12:39:48 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 510ms (Views: 2.6ms | ActiveRecord: 0.2ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 12:46:54 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 520ms (Views: 5.9ms | ActiveRecord: 2.3ms | Allocations: 3354)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 12:46:55 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 507ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 12:48:33 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 514ms (Views: 4.1ms | ActiveRecord: 0.7ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 12:48:34 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 510ms (Views: 3.4ms | ActiveRecord: 0.3ms | Allocations: 2789)
+
+
+Started POST "/api/v1/line_foods" for ::1 at 2022-08-11 12:48:36 +0900
+Processing by Api::V1::LineFoodsController#create as HTML
+  Parameters: {"food_id"=>4, "count"=>1, "line_food"=>{"food_id"=>4, "count"=>1}}
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:57:in `set_food'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? AND "line_foods"."restaurant_id" != ? LIMIT ?[0m  [["active", 1], ["restaurant_id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Load (0.4ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."food_id" = ? LIMIT ?[0m  [["food_id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:61:in `set_line_food'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+  [1m[36mLineFood Create (1.9ms)[0m  [1m[32mINSERT INTO "line_foods" ("food_id", "restaurant_id", "order_id", "count", "active", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["food_id", 4], ["restaurant_id", 1], ["order_id", nil], ["count", 1], ["active", 1], ["created_at", "2022-08-11 03:48:37.046465"], ["updated_at", "2022-08-11 03:48:37.046465"]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+Completed 201 Created in 544ms (Views: 0.4ms | ActiveRecord: 5.8ms | Allocations: 9886)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 12:48:38 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 534ms (Views: 5.0ms | ActiveRecord: 0.9ms | Allocations: 2828)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 12:48:39 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 515ms (Views: 5.5ms | ActiveRecord: 0.7ms | Allocations: 2789)
+
+
+Started POST "/api/v1/line_foods" for ::1 at 2022-08-11 12:48:44 +0900
+Processing by Api::V1::LineFoodsController#create as HTML
+  Parameters: {"food_id"=>3, "count"=>3, "line_food"=>{"food_id"=>3, "count"=>3}}
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:57:in `set_food'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? AND "line_foods"."restaurant_id" != ? LIMIT ?[0m  [["active", 1], ["restaurant_id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Load (0.2ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."food_id" = ? LIMIT ?[0m  [["food_id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:61:in `set_line_food'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+  [1m[36mLineFood Create (1.4ms)[0m  [1m[32mINSERT INTO "line_foods" ("food_id", "restaurant_id", "order_id", "count", "active", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["food_id", 3], ["restaurant_id", 1], ["order_id", nil], ["count", 3], ["active", 1], ["created_at", "2022-08-11 03:48:44.770167"], ["updated_at", "2022-08-11 03:48:44.770167"]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+Completed 201 Created in 529ms (Views: 0.6ms | ActiveRecord: 4.3ms | Allocations: 4198)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 12:48:46 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 517ms (Views: 7.1ms | ActiveRecord: 0.9ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 12:48:46 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 513ms (Views: 5.1ms | ActiveRecord: 0.7ms | Allocations: 2793)
+
+
+Started POST "/api/v1/line_foods" for ::1 at 2022-08-11 12:48:48 +0900
+Processing by Api::V1::LineFoodsController#create as HTML
+  Parameters: {"food_id"=>2, "count"=>1, "line_food"=>{"food_id"=>2, "count"=>1}}
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:57:in `set_food'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? AND "line_foods"."restaurant_id" != ? LIMIT ?[0m  [["active", 1], ["restaurant_id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Load (0.2ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."food_id" = ? LIMIT ?[0m  [["food_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:61:in `set_line_food'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+  [1m[36mLineFood Create (1.2ms)[0m  [1m[32mINSERT INTO "line_foods" ("food_id", "restaurant_id", "order_id", "count", "active", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["food_id", 2], ["restaurant_id", 1], ["order_id", nil], ["count", 1], ["active", 1], ["created_at", "2022-08-11 03:48:48.966664"], ["updated_at", "2022-08-11 03:48:48.966664"]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+Completed 201 Created in 525ms (Views: 0.5ms | ActiveRecord: 4.6ms | Allocations: 4177)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 12:48:54 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 511ms (Views: 6.2ms | ActiveRecord: 0.6ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 12:48:54 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 511ms (Views: 4.0ms | ActiveRecord: 0.5ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 12:48:57 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 512ms (Views: 4.3ms | ActiveRecord: 0.5ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 12:48:57 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 511ms (Views: 6.1ms | ActiveRecord: 0.7ms | Allocations: 2790)
+
+
+Started POST "/api/v1/line_foods" for ::1 at 2022-08-11 12:48:59 +0900
+Processing by Api::V1::LineFoodsController#create as HTML
+  Parameters: {"food_id"=>14, "count"=>1, "line_food"=>{"food_id"=>14, "count"=>1}}
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:57:in `set_food'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? AND "line_foods"."restaurant_id" != ? LIMIT ?[0m  [["active", 1], ["restaurant_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Load (0.3ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."restaurant_id" != ? ORDER BY "line_foods"."id" ASC LIMIT ?[0m  [["restaurant_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:22:in `create'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:22:in `create'
+  [1m[36mCACHE Food Load (0.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:23:in `create'
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:23:in `create'
+Completed 406 Not Acceptable in 524ms (Views: 0.4ms | ActiveRecord: 1.7ms | Allocations: 4213)
+
+
+Started PUT "/api/v1/line_foods/replace" for ::1 at 2022-08-11 12:49:06 +0900
+Processing by Api::V1::LineFoodsController#replace as HTML
+  Parameters: {"food_id"=>14, "count"=>1, "line_food"=>{"food_id"=>14, "count"=>1}}
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:57:in `set_food'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:39:in `replace'
+  [1m[36mLineFood Load (0.4ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ? AND "line_foods"."restaurant_id" != ?[0m  [["active", 1], ["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:39:in `replace'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mLineFood Update (0.9ms)[0m  [1m[33mUPDATE "line_foods" SET "active" = ?, "updated_at" = ? WHERE "line_foods"."id" = ?[0m  [["active", 0], ["updated_at", "2022-08-11 03:49:07.385981"], ["id", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mLineFood Update (0.6ms)[0m  [1m[33mUPDATE "line_foods" SET "active" = ?, "updated_at" = ? WHERE "line_foods"."id" = ?[0m  [["active", 0], ["updated_at", "2022-08-11 03:49:07.395994"], ["id", 2]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mLineFood Update (0.6ms)[0m  [1m[33mUPDATE "line_foods" SET "active" = ?, "updated_at" = ? WHERE "line_foods"."id" = ?[0m  [["active", 0], ["updated_at", "2022-08-11 03:49:07.401612"], ["id", 3]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mLineFood Load (0.1ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."food_id" = ? LIMIT ?[0m  [["food_id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:61:in `set_line_food'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:45:in `replace'
+  [1m[36mLineFood Create (0.5ms)[0m  [1m[32mINSERT INTO "line_foods" ("food_id", "restaurant_id", "order_id", "count", "active", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["food_id", 14], ["restaurant_id", 2], ["order_id", nil], ["count", 1], ["active", 1], ["created_at", "2022-08-11 03:49:07.407700"], ["updated_at", "2022-08-11 03:49:07.407700"]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:45:in `replace'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:45:in `replace'
+Completed 201 Created in 540ms (Views: 0.3ms | ActiveRecord: 7.6ms | Allocations: 9548)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 12:56:49 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.1ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 513ms (Views: 0.7ms | ActiveRecord: 0.7ms | Allocations: 3260)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 12:56:50 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.1ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 510ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 2444)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 12:56:54 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.2ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 517ms (Views: 0.9ms | ActiveRecord: 1.2ms | Allocations: 2431)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 12:56:54 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.1ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 513ms (Views: 0.5ms | ActiveRecord: 0.7ms | Allocations: 2433)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:01:02 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.1ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 513ms (Views: 0.7ms | ActiveRecord: 0.5ms | Allocations: 2431)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:01:02 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.1ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 509ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 2433)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:01:07 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.3ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 518ms (Views: 1.1ms | ActiveRecord: 1.2ms | Allocations: 2430)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:01:07 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.2ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 513ms (Views: 1.6ms | ActiveRecord: 1.1ms | Allocations: 2431)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:03:35 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.3ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 520ms (Views: 1.3ms | ActiveRecord: 1.3ms | Allocations: 2430)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:03:36 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.1ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 510ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 2431)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:03:45 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.1ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 510ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 2434)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:03:45 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.2ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 518ms (Views: 0.8ms | ActiveRecord: 1.2ms | Allocations: 2430)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:03:46 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.2ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 514ms (Views: 0.6ms | ActiveRecord: 0.9ms | Allocations: 2430)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:03:47 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.1ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 514ms (Views: 0.9ms | ActiveRecord: 1.1ms | Allocations: 2434)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:04:15 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.3ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 531ms (Views: 2.0ms | ActiveRecord: 1.5ms | Allocations: 2430)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:04:16 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.1ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 511ms (Views: 0.4ms | ActiveRecord: 0.4ms | Allocations: 2431)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:04:55 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.1ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 514ms (Views: 0.9ms | ActiveRecord: 0.9ms | Allocations: 2433)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:04:55 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.1ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 513ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 2431)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 13:07:08 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 521ms (Views: 11.4ms | ActiveRecord: 0.9ms | Allocations: 2847)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 13:07:15 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 518ms (Views: 8.1ms | ActiveRecord: 0.9ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 13:07:15 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 512ms (Views: 5.6ms | ActiveRecord: 0.3ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 13:07:21 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 523ms (Views: 8.0ms | ActiveRecord: 1.2ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 13:07:22 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 516ms (Views: 6.8ms | ActiveRecord: 0.7ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 13:07:43 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 517ms (Views: 6.9ms | ActiveRecord: 0.8ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 13:07:44 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 13:07:44 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 505ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 3934)
+
+
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 517ms (Views: 7.6ms | ActiveRecord: 0.8ms | Allocations: 5911)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 13:07:45 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 518ms (Views: 7.9ms | ActiveRecord: 0.8ms | Allocations: 2806)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 13:07:54 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 507ms (Views: 1.8ms | ActiveRecord: 0.1ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 13:07:55 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 511ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 13:07:56 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 513ms (Views: 4.5ms | ActiveRecord: 0.5ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 13:07:57 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 518ms (Views: 8.0ms | ActiveRecord: 0.9ms | Allocations: 2793)
+
+
+Started POST "/api/v1/line_foods" for ::1 at 2022-08-11 13:07:58 +0900
+Processing by Api::V1::LineFoodsController#create as HTML
+  Parameters: {"food_id"=>2, "count"=>1, "line_food"=>{"food_id"=>2, "count"=>1}}
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:57:in `set_food'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? AND "line_foods"."restaurant_id" != ? LIMIT ?[0m  [["active", 1], ["restaurant_id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Load (0.4ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."restaurant_id" != ? ORDER BY "line_foods"."id" ASC LIMIT ?[0m  [["restaurant_id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:22:in `create'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:22:in `create'
+  [1m[36mCACHE Food Load (0.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:23:in `create'
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:23:in `create'
+Completed 406 Not Acceptable in 525ms (Views: 0.4ms | ActiveRecord: 1.6ms | Allocations: 3907)
+
+
+Started PUT "/api/v1/line_foods/replace" for ::1 at 2022-08-11 13:08:00 +0900
+Processing by Api::V1::LineFoodsController#replace as HTML
+  Parameters: {"food_id"=>2, "count"=>1, "line_food"=>{"food_id"=>2, "count"=>1}}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:57:in `set_food'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:39:in `replace'
+  [1m[36mLineFood Load (0.4ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ? AND "line_foods"."restaurant_id" != ?[0m  [["active", 1], ["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:39:in `replace'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mLineFood Update (0.8ms)[0m  [1m[33mUPDATE "line_foods" SET "active" = ?, "updated_at" = ? WHERE "line_foods"."id" = ?[0m  [["active", 0], ["updated_at", "2022-08-11 04:08:01.260392"], ["id", 4]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mLineFood Load (0.4ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."food_id" = ? LIMIT ?[0m  [["food_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:61:in `set_line_food'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:45:in `replace'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:45:in `replace'
+  [1m[36mLineFood Update (0.6ms)[0m  [1m[33mUPDATE "line_foods" SET "count" = ?, "active" = ?, "updated_at" = ? WHERE "line_foods"."id" = ?[0m  [["count", 2], ["active", 1], ["updated_at", "2022-08-11 04:08:01.276808"], ["id", 3]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:45:in `replace'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:45:in `replace'
+Completed 201 Created in 535ms (Views: 0.4ms | ActiveRecord: 5.6ms | Allocations: 6848)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:08:01 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.2ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 518ms (Views: 0.7ms | ActiveRecord: 1.2ms | Allocations: 2434)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:08:01 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.2ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 518ms (Views: 0.8ms | ActiveRecord: 1.1ms | Allocations: 2443)
+
+
+Started POST "/api/v1/orders" for ::1 at 2022-08-11 13:08:03 +0900
+Processing by Api::V1::OrdersController#create as HTML
+  Parameters: {"line_food_ids"=>[3], "order"=>{}}
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:08:03 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Load (0.7ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."id" = ?[0m  [["id", 3]]
+  ↳ app/controllers/api/v1/orders_controller.rb:20:in `total_price'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/orders_controller.rb:20:in `total_price'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/order.rb:10:in `block (2 levels) in save_with_update_line_foods!'
+  [1m[36mOrder Create (1.2ms)[0m  [1m[32mINSERT INTO "orders" ("total_price", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["total_price", 1100], ["created_at", "2022-08-11 04:08:03.888709"], ["updated_at", "2022-08-11 04:08:03.888709"]]
+  ↳ app/models/order.rb:10:in `block (2 levels) in save_with_update_line_foods!'
+  [1m[36mLineFood Update (0.3ms)[0m  [1m[33mUPDATE "line_foods" SET "order_id" = ?, "active" = ?, "updated_at" = ? WHERE "line_foods"."id" = ?[0m  [["order_id", 1], ["active", 0], ["updated_at", "2022-08-11 04:08:03.895035"], ["id", 3]]
+  ↳ app/models/order.rb:10:in `block (2 levels) in save_with_update_line_foods!'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/order.rb:8:in `save_with_update_line_foods!'
+Completed 204 No Content in 534ms (Views: 0.3ms | ActiveRecord: 4.5ms | Allocations: 8167)
+
+
+  [1m[36mLineFood Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+Completed 204 No Content in 511ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 7830)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:08:03 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+Completed 204 No Content in 508ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 596)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 13:08:04 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 516ms (Views: 7.0ms | ActiveRecord: 0.8ms | Allocations: 2811)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 13:08:05 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 508ms (Views: 2.8ms | ActiveRecord: 0.3ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 13:08:13 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 509ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/1/foods" for ::1 at 2022-08-11 13:08:13 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 517ms (Views: 7.5ms | ActiveRecord: 0.9ms | Allocations: 2789)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-11 13:09:08 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 508ms (Views: 3.8ms | ActiveRecord: 0.5ms | Allocations: 1071)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-11 13:09:08 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 509ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 1042)
+
+
+Started GET "/api/v1/restaurants/3/foods" for ::1 at 2022-08-11 13:09:10 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"3"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 3]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 513ms (Views: 6.5ms | ActiveRecord: 0.8ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/3/foods" for ::1 at 2022-08-11 13:09:11 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"3"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 3]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 519ms (Views: 8.1ms | ActiveRecord: 0.9ms | Allocations: 2806)
+
+
+Started POST "/api/v1/line_foods" for ::1 at 2022-08-11 13:09:15 +0900
+Processing by Api::V1::LineFoodsController#create as HTML
+  Parameters: {"food_id"=>25, "count"=>3, "line_food"=>{"food_id"=>25, "count"=>3}}
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:57:in `set_food'
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? AND "line_foods"."restaurant_id" != ? LIMIT ?[0m  [["active", 1], ["restaurant_id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Load (0.2ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."food_id" = ? LIMIT ?[0m  [["food_id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:61:in `set_line_food'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+  [1m[36mLineFood Create (1.2ms)[0m  [1m[32mINSERT INTO "line_foods" ("food_id", "restaurant_id", "order_id", "count", "active", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["food_id", 25], ["restaurant_id", 3], ["order_id", nil], ["count", 3], ["active", 1], ["created_at", "2022-08-11 04:09:15.774418"], ["updated_at", "2022-08-11 04:09:15.774418"]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+Completed 201 Created in 528ms (Views: 1.3ms | ActiveRecord: 4.3ms | Allocations: 4182)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:09:15 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.2ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 516ms (Views: 0.7ms | ActiveRecord: 1.1ms | Allocations: 2431)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:09:16 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.2ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 517ms (Views: 1.6ms | ActiveRecord: 1.2ms | Allocations: 2445)
+
+
+Started POST "/api/v1/orders" for ::1 at 2022-08-11 13:09:22 +0900
+Processing by Api::V1::OrdersController#create as HTML
+  Parameters: {"line_food_ids"=>[5], "order"=>{}}
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:09:22 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Load (0.6ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."id" = ?[0m  [["id", 5]]
+  ↳ app/controllers/api/v1/orders_controller.rb:20:in `total_price'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/orders_controller.rb:20:in `total_price'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/order.rb:10:in `block (2 levels) in save_with_update_line_foods!'
+  [1m[36mOrder Create (0.7ms)[0m  [1m[32mINSERT INTO "orders" ("total_price", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["total_price", 1600], ["created_at", "2022-08-11 04:09:22.662638"], ["updated_at", "2022-08-11 04:09:22.662638"]]
+  ↳ app/models/order.rb:10:in `block (2 levels) in save_with_update_line_foods!'
+  [1m[36mLineFood Update (0.8ms)[0m  [1m[33mUPDATE "line_foods" SET "order_id" = ?, "active" = ?, "updated_at" = ? WHERE "line_foods"."id" = ?[0m  [["order_id", 2], ["active", 0], ["updated_at", "2022-08-11 04:09:22.668459"], ["id", 5]]
+  ↳ app/models/order.rb:10:in `block (2 levels) in save_with_update_line_foods!'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/order.rb:8:in `save_with_update_line_foods!'
+Completed 204 No Content in 530ms (Views: 0.3ms | ActiveRecord: 4.0ms | Allocations: 5907)
+
+
+  [1m[36mLineFood Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+Completed 204 No Content in 507ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 5685)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:09:22 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+Completed 204 No Content in 506ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 597)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateRestaurants (20220726124507)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (4.9ms)[0m  [1m[35mCREATE TABLE "restaurants" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar NOT NULL, "fee" integer DEFAULT 0 NOT NULL, "time_required" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220726124507"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateFoods (20220726124646)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "foods" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "restaurant_id" integer NOT NULL, "name" varchar NOT NULL, "price" integer NOT NULL, "description" text NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_eae1e5c8ad"
+FOREIGN KEY ("restaurant_id")
+  REFERENCES "restaurants" ("id")
+)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE INDEX "index_foods_on_restaurant_id" ON "foods" ("restaurant_id")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220726124646"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateLineFoods (20220726125018)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "line_foods" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "food_id" integer NOT NULL, "restaurant_id" integer NOT NULL, "order_id" integer, "count" integer DEFAULT 0 NOT NULL, "active" boolean DEFAULT 0 NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_51ed53b961"
+FOREIGN KEY ("food_id")
+  REFERENCES "foods" ("id")
+, CONSTRAINT "fk_rails_1e43acf94b"
+FOREIGN KEY ("restaurant_id")
+  REFERENCES "restaurants" ("id")
+, CONSTRAINT "fk_rails_1facd9ad30"
+FOREIGN KEY ("order_id")
+  REFERENCES "orders" ("id")
+)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE INDEX "index_line_foods_on_food_id" ON "line_foods" ("food_id")[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE INDEX "index_line_foods_on_restaurant_id" ON "line_foods" ("restaurant_id")[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE INDEX "index_line_foods_on_order_id" ON "line_foods" ("order_id")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220726125018"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateOrders (20220726125129)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "orders" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "total_price" integer DEFAULT 0 NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220726125129"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-08-11 04:09:48.372484"], ["updated_at", "2022-08-11 04:09:48.372484"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRestaurant Create (0.2ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "fee", "time_required", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "testレストラン_0"], ["fee", 100], ["time_required", 10], ["created_at", "2022-08-11 04:09:56.329491"], ["updated_at", "2022-08-11 04:09:56.329491"]]
+  [1m[36mFood Create (0.1ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 1], ["name", "フード名_0"], ["price", 500], ["description", "フード_0の説明文です。"], ["created_at", "2022-08-11 04:09:56.330828"], ["updated_at", "2022-08-11 04:09:56.330828"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 1], ["name", "フード名_1"], ["price", 500], ["description", "フード_1の説明文です。"], ["created_at", "2022-08-11 04:09:56.331478"], ["updated_at", "2022-08-11 04:09:56.331478"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 1], ["name", "フード名_2"], ["price", 500], ["description", "フード_2の説明文です。"], ["created_at", "2022-08-11 04:09:56.331950"], ["updated_at", "2022-08-11 04:09:56.331950"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 1], ["name", "フード名_3"], ["price", 500], ["description", "フード_3の説明文です。"], ["created_at", "2022-08-11 04:09:56.332542"], ["updated_at", "2022-08-11 04:09:56.332542"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 1], ["name", "フード名_4"], ["price", 500], ["description", "フード_4の説明文です。"], ["created_at", "2022-08-11 04:09:56.332993"], ["updated_at", "2022-08-11 04:09:56.332993"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 1], ["name", "フード名_5"], ["price", 500], ["description", "フード_5の説明文です。"], ["created_at", "2022-08-11 04:09:56.333524"], ["updated_at", "2022-08-11 04:09:56.333524"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 1], ["name", "フード名_6"], ["price", 500], ["description", "フード_6の説明文です。"], ["created_at", "2022-08-11 04:09:56.333975"], ["updated_at", "2022-08-11 04:09:56.333975"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 1], ["name", "フード名_7"], ["price", 500], ["description", "フード_7の説明文です。"], ["created_at", "2022-08-11 04:09:56.334520"], ["updated_at", "2022-08-11 04:09:56.334520"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 1], ["name", "フード名_8"], ["price", 500], ["description", "フード_8の説明文です。"], ["created_at", "2022-08-11 04:09:56.334989"], ["updated_at", "2022-08-11 04:09:56.334989"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 1], ["name", "フード名_9"], ["price", 500], ["description", "フード_9の説明文です。"], ["created_at", "2022-08-11 04:09:56.335522"], ["updated_at", "2022-08-11 04:09:56.335522"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 1], ["name", "フード名_10"], ["price", 500], ["description", "フード_10の説明文です。"], ["created_at", "2022-08-11 04:09:56.336010"], ["updated_at", "2022-08-11 04:09:56.336010"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 1], ["name", "フード名_11"], ["price", 500], ["description", "フード_11の説明文です。"], ["created_at", "2022-08-11 04:09:56.336479"], ["updated_at", "2022-08-11 04:09:56.336479"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRestaurant Create (0.2ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "fee", "time_required", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "testレストラン_1"], ["fee", 100], ["time_required", 10], ["created_at", "2022-08-11 04:09:56.338532"], ["updated_at", "2022-08-11 04:09:56.338532"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 2], ["name", "フード名_0"], ["price", 500], ["description", "フード_0の説明文です。"], ["created_at", "2022-08-11 04:09:56.339335"], ["updated_at", "2022-08-11 04:09:56.339335"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 2], ["name", "フード名_1"], ["price", 500], ["description", "フード_1の説明文です。"], ["created_at", "2022-08-11 04:09:56.339844"], ["updated_at", "2022-08-11 04:09:56.339844"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 2], ["name", "フード名_2"], ["price", 500], ["description", "フード_2の説明文です。"], ["created_at", "2022-08-11 04:09:56.340321"], ["updated_at", "2022-08-11 04:09:56.340321"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 2], ["name", "フード名_3"], ["price", 500], ["description", "フード_3の説明文です。"], ["created_at", "2022-08-11 04:09:56.340783"], ["updated_at", "2022-08-11 04:09:56.340783"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 2], ["name", "フード名_4"], ["price", 500], ["description", "フード_4の説明文です。"], ["created_at", "2022-08-11 04:09:56.341251"], ["updated_at", "2022-08-11 04:09:56.341251"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 2], ["name", "フード名_5"], ["price", 500], ["description", "フード_5の説明文です。"], ["created_at", "2022-08-11 04:09:56.341722"], ["updated_at", "2022-08-11 04:09:56.341722"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 2], ["name", "フード名_6"], ["price", 500], ["description", "フード_6の説明文です。"], ["created_at", "2022-08-11 04:09:56.342207"], ["updated_at", "2022-08-11 04:09:56.342207"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 2], ["name", "フード名_7"], ["price", 500], ["description", "フード_7の説明文です。"], ["created_at", "2022-08-11 04:09:56.342683"], ["updated_at", "2022-08-11 04:09:56.342683"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 2], ["name", "フード名_8"], ["price", 500], ["description", "フード_8の説明文です。"], ["created_at", "2022-08-11 04:09:56.343178"], ["updated_at", "2022-08-11 04:09:56.343178"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 2], ["name", "フード名_9"], ["price", 500], ["description", "フード_9の説明文です。"], ["created_at", "2022-08-11 04:09:56.343645"], ["updated_at", "2022-08-11 04:09:56.343645"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 2], ["name", "フード名_10"], ["price", 500], ["description", "フード_10の説明文です。"], ["created_at", "2022-08-11 04:09:56.344112"], ["updated_at", "2022-08-11 04:09:56.344112"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 2], ["name", "フード名_11"], ["price", 500], ["description", "フード_11の説明文です。"], ["created_at", "2022-08-11 04:09:56.344583"], ["updated_at", "2022-08-11 04:09:56.344583"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRestaurant Create (0.1ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "fee", "time_required", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "testレストラン_2"], ["fee", 100], ["time_required", 10], ["created_at", "2022-08-11 04:09:56.346494"], ["updated_at", "2022-08-11 04:09:56.346494"]]
+  [1m[36mFood Create (0.1ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 3], ["name", "フード名_0"], ["price", 500], ["description", "フード_0の説明文です。"], ["created_at", "2022-08-11 04:09:56.347270"], ["updated_at", "2022-08-11 04:09:56.347270"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 3], ["name", "フード名_1"], ["price", 500], ["description", "フード_1の説明文です。"], ["created_at", "2022-08-11 04:09:56.347780"], ["updated_at", "2022-08-11 04:09:56.347780"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 3], ["name", "フード名_2"], ["price", 500], ["description", "フード_2の説明文です。"], ["created_at", "2022-08-11 04:09:56.348254"], ["updated_at", "2022-08-11 04:09:56.348254"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 3], ["name", "フード名_3"], ["price", 500], ["description", "フード_3の説明文です。"], ["created_at", "2022-08-11 04:09:56.348720"], ["updated_at", "2022-08-11 04:09:56.348720"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 3], ["name", "フード名_4"], ["price", 500], ["description", "フード_4の説明文です。"], ["created_at", "2022-08-11 04:09:56.349179"], ["updated_at", "2022-08-11 04:09:56.349179"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 3], ["name", "フード名_5"], ["price", 500], ["description", "フード_5の説明文です。"], ["created_at", "2022-08-11 04:09:56.349655"], ["updated_at", "2022-08-11 04:09:56.349655"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 3], ["name", "フード名_6"], ["price", 500], ["description", "フード_6の説明文です。"], ["created_at", "2022-08-11 04:09:56.350116"], ["updated_at", "2022-08-11 04:09:56.350116"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 3], ["name", "フード名_7"], ["price", 500], ["description", "フード_7の説明文です。"], ["created_at", "2022-08-11 04:09:56.350590"], ["updated_at", "2022-08-11 04:09:56.350590"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 3], ["name", "フード名_8"], ["price", 500], ["description", "フード_8の説明文です。"], ["created_at", "2022-08-11 04:09:56.351064"], ["updated_at", "2022-08-11 04:09:56.351064"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 3], ["name", "フード名_9"], ["price", 500], ["description", "フード_9の説明文です。"], ["created_at", "2022-08-11 04:09:56.351541"], ["updated_at", "2022-08-11 04:09:56.351541"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 3], ["name", "フード名_10"], ["price", 500], ["description", "フード_10の説明文です。"], ["created_at", "2022-08-11 04:09:56.352012"], ["updated_at", "2022-08-11 04:09:56.352012"]]
+  [1m[36mFood Create (0.0ms)[0m  [1m[32mINSERT INTO "foods" ("restaurant_id", "name", "price", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["restaurant_id", 3], ["name", "フード名_11"], ["price", 500], ["description", "フード_11の説明文です。"], ["created_at", "2022-08-11 04:09:56.352473"], ["updated_at", "2022-08-11 04:09:56.352473"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mRestaurant Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "restaurants"[0m
+  [1m[36mFood Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "foods"[0m
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:11:08 +0900
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+Completed 204 No Content in 526ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 6895)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:11:09 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+Completed 204 No Content in 508ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 684)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-11 13:11:14 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 525ms (Views: 11.5ms | ActiveRecord: 1.5ms | Allocations: 6719)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-11 13:11:15 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 512ms (Views: 5.2ms | ActiveRecord: 0.5ms | Allocations: 1162)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 13:11:20 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 551ms (Views: 24.8ms | ActiveRecord: 2.0ms | Allocations: 9669)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 13:11:21 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 510ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 2971)
+
+
+Started POST "/api/v1/line_foods" for ::1 at 2022-08-11 13:11:37 +0900
+Processing by Api::V1::LineFoodsController#create as HTML
+  Parameters: {"food_id"=>16, "count"=>2, "line_food"=>{"food_id"=>16, "count"=>2}}
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:57:in `set_food'
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? AND "line_foods"."restaurant_id" != ? LIMIT ?[0m  [["active", 1], ["restaurant_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Load (0.3ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."food_id" = ? LIMIT ?[0m  [["food_id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:61:in `set_line_food'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+  [1m[36mLineFood Create (0.8ms)[0m  [1m[32mINSERT INTO "line_foods" ("food_id", "restaurant_id", "order_id", "count", "active", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["food_id", 16], ["restaurant_id", 2], ["order_id", nil], ["count", 2], ["active", 1], ["created_at", "2022-08-11 04:11:37.948237"], ["updated_at", "2022-08-11 04:11:37.948237"]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+Completed 201 Created in 544ms (Views: 0.3ms | ActiveRecord: 3.4ms | Allocations: 10081)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:11:37 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.1ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 510ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 2888)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:11:38 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.2ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 522ms (Views: 0.8ms | ActiveRecord: 1.4ms | Allocations: 2451)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 13:11:47 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (1.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 514ms (Views: 6.3ms | ActiveRecord: 2.0ms | Allocations: 2809)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 13:11:47 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 510ms (Views: 4.5ms | ActiveRecord: 0.5ms | Allocations: 2789)
+
+
+Started POST "/api/v1/line_foods" for ::1 at 2022-08-11 13:11:56 +0900
+Processing by Api::V1::LineFoodsController#create as HTML
+  Parameters: {"food_id"=>14, "count"=>2, "line_food"=>{"food_id"=>14, "count"=>2}}
+  [1m[36mFood Load (1.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:57:in `set_food'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? AND "line_foods"."restaurant_id" != ? LIMIT ?[0m  [["active", 1], ["restaurant_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Load (0.2ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."food_id" = ? LIMIT ?[0m  [["food_id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:61:in `set_line_food'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+  [1m[36mLineFood Create (1.3ms)[0m  [1m[32mINSERT INTO "line_foods" ("food_id", "restaurant_id", "order_id", "count", "active", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["food_id", 14], ["restaurant_id", 2], ["order_id", nil], ["count", 2], ["active", 1], ["created_at", "2022-08-11 04:11:56.845569"], ["updated_at", "2022-08-11 04:11:56.845569"]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+  [1m[36mTRANSACTION (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+Completed 201 Created in 531ms (Views: 0.6ms | ActiveRecord: 6.3ms | Allocations: 4181)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:11:56 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.1ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 518ms (Views: 0.5ms | ActiveRecord: 1.4ms | Allocations: 3048)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:11:57 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.2ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 517ms (Views: 0.8ms | ActiveRecord: 1.5ms | Allocations: 3057)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 13:12:00 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 517ms (Views: 7.5ms | ActiveRecord: 0.9ms | Allocations: 2793)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 13:12:01 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 517ms (Views: 6.8ms | ActiveRecord: 1.1ms | Allocations: 2789)
+
+
+Started POST "/api/v1/line_foods" for ::1 at 2022-08-11 13:12:03 +0900
+Processing by Api::V1::LineFoodsController#create as HTML
+  Parameters: {"food_id"=>17, "count"=>1, "line_food"=>{"food_id"=>17, "count"=>1}}
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:57:in `set_food'
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? AND "line_foods"."restaurant_id" != ? LIMIT ?[0m  [["active", 1], ["restaurant_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Load (0.1ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."food_id" = ? LIMIT ?[0m  [["food_id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:61:in `set_line_food'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+  [1m[36mLineFood Create (1.1ms)[0m  [1m[32mINSERT INTO "line_foods" ("food_id", "restaurant_id", "order_id", "count", "active", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["food_id", 17], ["restaurant_id", 2], ["order_id", nil], ["count", 1], ["active", 1], ["created_at", "2022-08-11 04:12:04.083211"], ["updated_at", "2022-08-11 04:12:04.083211"]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:29:in `create'
+Completed 201 Created in 521ms (Views: 0.8ms | ActiveRecord: 3.6ms | Allocations: 4173)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:12:04 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.2ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 522ms (Views: 0.5ms | ActiveRecord: 2.0ms | Allocations: 3658)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:12:04 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.2ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 522ms (Views: 1.0ms | ActiveRecord: 1.8ms | Allocations: 3673)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 13:12:06 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 517ms (Views: 7.1ms | ActiveRecord: 1.1ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/2/foods" for ::1 at 2022-08-11 13:12:06 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"2"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 515ms (Views: 6.5ms | ActiveRecord: 0.8ms | Allocations: 2792)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-11 13:12:18 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 510ms (Views: 3.4ms | ActiveRecord: 0.4ms | Allocations: 1042)
+
+
+Started GET "/api/v1/restaurants" for ::1 at 2022-08-11 13:12:18 +0900
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/api/v1/restaurants_controller.rb:8:in `index'
+Completed 200 OK in 508ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 1045)
+
+
+Started GET "/api/v1/restaurants/3/foods" for ::1 at 2022-08-11 13:12:20 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"3"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 3]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 509ms (Views: 4.7ms | ActiveRecord: 0.6ms | Allocations: 2790)
+
+
+Started GET "/api/v1/restaurants/3/foods" for ::1 at 2022-08-11 13:12:20 +0900
+Processing by Api::V1::FoodsController#index as HTML
+  Parameters: {"restaurant_id"=>"3"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/foods_controller.rb:6:in `index'
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."restaurant_id" = ?[0m  [["restaurant_id", 3]]
+  ↳ app/controllers/api/v1/foods_controller.rb:9:in `index'
+Completed 200 OK in 516ms (Views: 6.1ms | ActiveRecord: 0.8ms | Allocations: 2806)
+
+
+Started POST "/api/v1/line_foods" for ::1 at 2022-08-11 13:12:22 +0900
+Processing by Api::V1::LineFoodsController#create as HTML
+  Parameters: {"food_id"=>27, "count"=>1, "line_food"=>{"food_id"=>27, "count"=>1}}
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:57:in `set_food'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? AND "line_foods"."restaurant_id" != ? LIMIT ?[0m  [["active", 1], ["restaurant_id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:20:in `create'
+  [1m[36mLineFood Load (0.3ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."restaurant_id" != ? ORDER BY "line_foods"."id" ASC LIMIT ?[0m  [["restaurant_id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:22:in `create'
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:22:in `create'
+  [1m[36mCACHE Food Load (0.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:23:in `create'
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:23:in `create'
+Completed 406 Not Acceptable in 523ms (Views: 0.4ms | ActiveRecord: 1.5ms | Allocations: 4019)
+
+
+Started PUT "/api/v1/line_foods/replace" for ::1 at 2022-08-11 13:12:24 +0900
+Processing by Api::V1::LineFoodsController#replace as HTML
+  Parameters: {"food_id"=>27, "count"=>1, "line_food"=>{"food_id"=>27, "count"=>1}}
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:57:in `set_food'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:39:in `replace'
+  [1m[36mLineFood Load (0.5ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ? AND "line_foods"."restaurant_id" != ?[0m  [["active", 1], ["restaurant_id", 3]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:39:in `replace'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mLineFood Update (1.0ms)[0m  [1m[33mUPDATE "line_foods" SET "active" = ?, "updated_at" = ? WHERE "line_foods"."id" = ?[0m  [["active", 0], ["updated_at", "2022-08-11 04:12:25.387293"], ["id", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mLineFood Update (0.7ms)[0m  [1m[33mUPDATE "line_foods" SET "active" = ?, "updated_at" = ? WHERE "line_foods"."id" = ?[0m  [["active", 0], ["updated_at", "2022-08-11 04:12:25.396170"], ["id", 2]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mLineFood Update (0.8ms)[0m  [1m[33mUPDATE "line_foods" SET "active" = ?, "updated_at" = ? WHERE "line_foods"."id" = ?[0m  [["active", 0], ["updated_at", "2022-08-11 04:12:25.401523"], ["id", 3]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:40:in `block in replace'
+  [1m[36mLineFood Load (0.1ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."food_id" = ? LIMIT ?[0m  [["food_id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:61:in `set_line_food'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:45:in `replace'
+  [1m[36mLineFood Create (0.6ms)[0m  [1m[32mINSERT INTO "line_foods" ("food_id", "restaurant_id", "order_id", "count", "active", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["food_id", 27], ["restaurant_id", 3], ["order_id", nil], ["count", 1], ["active", 1], ["created_at", "2022-08-11 04:12:25.409142"], ["updated_at", "2022-08-11 04:12:25.409142"]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:45:in `replace'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/line_foods_controller.rb:45:in `replace'
+Completed 201 Created in 542ms (Views: 0.3ms | ActiveRecord: 9.1ms | Allocations: 9545)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:12:25 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.2ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 519ms (Views: 0.8ms | ActiveRecord: 1.5ms | Allocations: 2430)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:12:25 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+  [1m[36mLineFood Load (0.3ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."active" = ?[0m  [["active", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:9:in `map'
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:10:in `index'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+Completed 200 OK in 511ms (Views: 0.6ms | ActiveRecord: 1.1ms | Allocations: 2444)
+
+
+Started POST "/api/v1/orders" for ::1 at 2022-08-11 13:12:38 +0900
+Processing by Api::V1::OrdersController#create as HTML
+  Parameters: {"line_food_ids"=>[4], "order"=>{}}
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:12:38 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Load (0.4ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods" WHERE "line_foods"."id" = ?[0m  [["id", 4]]
+  ↳ app/controllers/api/v1/orders_controller.rb:20:in `total_price'
+  [1m[36mFood Load (0.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/models/line_food.rb:13:in `total_amount'
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/orders_controller.rb:20:in `total_price'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/order.rb:10:in `block (2 levels) in save_with_update_line_foods!'
+  [1m[36mOrder Create (0.8ms)[0m  [1m[32mINSERT INTO "orders" ("total_price", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["total_price", 600], ["created_at", "2022-08-11 04:12:38.788662"], ["updated_at", "2022-08-11 04:12:38.788662"]]
+  ↳ app/models/order.rb:10:in `block (2 levels) in save_with_update_line_foods!'
+  [1m[36mLineFood Update (0.4ms)[0m  [1m[33mUPDATE "line_foods" SET "order_id" = ?, "active" = ?, "updated_at" = ? WHERE "line_foods"."id" = ?[0m  [["order_id", 1], ["active", 0], ["updated_at", "2022-08-11 04:12:38.793250"], ["id", 4]]
+  ↳ app/models/order.rb:10:in `block (2 levels) in save_with_update_line_foods!'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/order.rb:8:in `save_with_update_line_foods!'
+Completed 204 No Content in 541ms (Views: 0.2ms | ActiveRecord: 5.1ms | Allocations: 8107)
+
+
+  [1m[36mLineFood Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+Completed 204 No Content in 507ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 7781)
+
+
+Started GET "/api/v1/line_foods" for ::1 at 2022-08-11 13:12:38 +0900
+Processing by Api::V1::LineFoodsController#index as HTML
+  [1m[36mLineFood Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "line_foods" WHERE "line_foods"."active" = ? LIMIT ?[0m  [["active", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/line_foods_controller.rb:7:in `index'
+Completed 204 No Content in 510ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 600)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mLineFood Load (0.4ms)[0m  [1m[34mSELECT "line_foods".* FROM "line_foods"[0m
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
