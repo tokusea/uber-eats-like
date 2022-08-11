@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   # --- ここから追加 ---
+  root  'rails/welcome#index'
   namespace :api do
     namespace :v1 do
       resources :restaurants do
